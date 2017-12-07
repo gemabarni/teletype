@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@atom/teletype-client": "^0.28.2",
+    "dat-node": "^3.5.6",
     "etch": "^0.12.6"
   },
   "consumedServices": {
@@ -69,6 +70,8 @@
       "atom",
       "ErrorEvent"
     ],
-    "ignore": ["test/fixtures"]
+    "ignore": [
+      "test/fixtures"
+    ]
   }
 }
